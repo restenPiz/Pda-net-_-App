@@ -17,8 +17,22 @@ class _firstScreenState extends State<firstScreen> {
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),
-      body: Container(
-        
+      body: Column(
+        children: [
+          Container(
+            width: 500,
+            height: 150,
+            color: Colors.blue,
+            child: Column(
+              children: [
+                ListTile(
+                  title: Text('Open PdaNet on computer/tablet'),
+                  subtitle: Text('and connect WIFI to:'),
+                )
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }
