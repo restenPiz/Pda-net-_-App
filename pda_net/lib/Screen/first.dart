@@ -21,7 +21,7 @@ class _firstScreenState extends State<firstScreen> {
         children: [
           Container(
             width: 500,
-            height: 200,
+            height: 240,
             color: Colors.blue,
             child: Column(
               children: [
@@ -30,13 +30,14 @@ class _firstScreenState extends State<firstScreen> {
                   subtitle: Text('and connect WIFI to:'),
                 ),
                 ListTile(
+                  contentPadding: EdgeInsets.only(left: 30.0),
                   title: Text('Name: DIRECT-7L-ONEPLUS A5010-PDaNet'),
-                  subtitle: Text('and connect WIFI to:'),
+                  subtitle: Text('Password: aQX5NL5m'),
                 ),
                 ListTile(
-                  title: Text('Open PdaNet on computer/tablet'),
-                  subtitle: Text('and connect WIFI to:'),
-                )
+                  title: Text('Tap Help button for details'),
+                  subtitle: Text('Wifi idle timer: 9 minutes'),
+                ),
               ],
             ),
           ),
