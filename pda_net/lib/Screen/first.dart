@@ -17,6 +17,9 @@ class _firstScreenState extends State<firstScreen> {
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),
+      body: Container(
+        
+      ),
     );
   }
 }
