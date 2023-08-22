@@ -1,4 +1,6 @@
 
+// ignore_for_file: camel_case_types, prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
 
 class firstScreen extends StatefulWidget {
@@ -21,7 +23,7 @@ class _firstScreenState extends State<firstScreen> {
         children: [
           Container(
             width: 500,
-            height: 240,
+            height: 200,
             color: Colors.blue,
             child: Column(
               children: [
@@ -40,6 +42,11 @@ class _firstScreenState extends State<firstScreen> {
                 ),
               ],
             ),
+          ),
+          Container(
+            
+            //*Inicio de toda coluna responsavel pelas opcoes
+
           ),
         ],
       ),
