@@ -21,10 +21,18 @@ class _firstScreenState extends State<firstScreen> {
         children: [
           Container(
             width: 500,
-            height: 150,
+            height: 200,
             color: Colors.blue,
             child: Column(
               children: [
+                ListTile(
+                  title: Text('Open PdaNet on computer/tablet'),
+                  subtitle: Text('and connect WIFI to:'),
+                ),
+                ListTile(
+                  title: Text('Name: DIRECT-7L-ONEPLUS A5010-PDaNet'),
+                  subtitle: Text('and connect WIFI to:'),
+                ),
                 ListTile(
                   title: Text('Open PdaNet on computer/tablet'),
                   subtitle: Text('and connect WIFI to:'),
