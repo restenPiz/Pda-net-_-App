@@ -18,6 +18,13 @@ class _firstScreenState extends State<firstScreen> {
         title: Text('PDA NET +'),
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.more_vert), 
+            onPressed: () {
+            },
+          ),
+        ],
       ),
       body: Column(
         children: [
