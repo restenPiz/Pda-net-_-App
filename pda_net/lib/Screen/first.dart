@@ -46,10 +46,35 @@ class _firstScreenState extends State<firstScreen> {
             ),
           ),
           Container(
-            
+            color: Colors.black,
             //?Inicio da coluna que contem o conteudo da minha application
             child: Column(
+              children: [
 
+                //?Inicio do container contendo o titulo da section
+                Container(
+                  padding: EdgeInsets.only(left: 20.0),
+                  width: 500,
+                  color: Color.fromARGB(255, 62, 56, 63),
+                  child: Text('Main',
+                  style: TextStyle(color: Colors.white),
+                  ),
+                ),
+
+                //?Inicio da section
+                ListTile(
+                  title: Text('USB Tether',
+                    style: TextStyle(color: Colors.white,),
+                  ),
+                  subtitle: Text('Supports computer connection',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  trailing: Checkbox(
+                    value: false,
+                    onChanged: (bool?value){},
+                  ),
+                ),
+              ],
             ),
 
           ),
