@@ -47,6 +47,7 @@ class _firstScreenState extends State<firstScreen> {
           ),
           Container(
             color: Colors.black,
+            height: 737,
             //?Inicio da coluna que contem o conteudo da minha application
             child: Column(
               children: [
