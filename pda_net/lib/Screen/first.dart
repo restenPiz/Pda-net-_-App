@@ -11,6 +11,12 @@ class firstScreen extends StatefulWidget {
 class _firstScreenState extends State<firstScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('PDA NET'),
+        backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
+      ),
+    );
   }
 }
