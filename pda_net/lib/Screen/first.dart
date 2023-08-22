@@ -15,12 +15,14 @@ class _firstScreenState extends State<firstScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('PDA NET'),
+        title: Text('PDA NET +'),
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),
       body: Column(
         children: [
+
+          //?Inicio do container contendo algumas infos
           Container(
             width: 500,
             height: 200,
@@ -45,7 +47,10 @@ class _firstScreenState extends State<firstScreen> {
           ),
           Container(
             
-            //*Inicio de toda coluna responsavel pelas opcoes
+            //?Inicio da coluna que contem o conteudo da minha application
+            child: Column(
+
+            ),
 
           ),
         ],
