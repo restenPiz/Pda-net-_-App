@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      //*Titulo do applicativo
       title: 'PdaNet +',
+      //*Inicio do debuger para nao mostrar o banner false
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
